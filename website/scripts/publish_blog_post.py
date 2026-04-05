@@ -36,16 +36,16 @@ def append_post(args):
     assert CONTENT_BLOG.exists(), f"content_blog.py not found at {CONTENT_BLOG}"
     src = CONTENT_BLOG.read_text(encoding="utf-8")
 
-    # Guard against duplicate slug
-    if f'"slug": "{args.slug}"' in src:
+    # Guard against duplicate slug (check both POSTS entries and POST_BODIES keys)
+    if f'"slug": "{args.slug}"' in src or f'"{args.slug}":' in src:
         print(f"[publish_blog_post] Slug '{args.slug}' already exists — skipping.")
         return False
 
     body_html = pathlib.Path(args.body_file).read_text(encoding="utf-8")
-    # Escape triple-quotes and backslashes for embedding in triple-quoted Python literal
-    body_html_safe = body_html.replace("\\", "\\\\").replace('"""', '\\"""')
 
     date = args.date or datetime.date.today().isoformat()
+
+    # --- 1) Prepend entry to POSTS list (metadata used by the blog index card) ---
     post_dict = f'''    {{
         "slug": "{args.slug}",
         "title": {args.title!r},
@@ -54,18 +54,32 @@ def append_post(args):
         "author": {args.author!r},
         "date": "{date}",
         "read_min": {args.read_min},
-        "body": """{body_html_safe}""",
     }},
 '''
-
-    # Insert new post at top of POSTS list
     m = re.search(r"POSTS\s*=\s*\[", src)
     if not m:
         raise SystemExit("Could not find POSTS = [ in content_blog.py")
     insert_at = m.end()
-    new_src = src[:insert_at] + "\n" + post_dict + src[insert_at:]
-    CONTENT_BLOG.write_text(new_src, encoding="utf-8")
-    print(f"[publish_blog_post] Inserted post '{args.slug}' into content_blog.py")
+    src = src[:insert_at] + "\n" + post_dict + src[insert_at:]
+
+    # --- 2) Prepend entry to POST_BODIES dict (HTML rendered on the post detail page) ---
+    # The site template wraps bodies in <section class="section"><div class="container prose">...</div></section>
+    # Escape triple single-quotes so the body can live inside a ''' literal
+    wrapped_body = (
+        '\n<section class="section"><div class="container prose">\n'
+        + body_html.strip()
+        + '\n</div></section>\n'
+    )
+    body_safe = wrapped_body.replace("'''", "\\'\\'\\'")
+    body_entry = f'    "{args.slug}": \'\'\'{body_safe}\'\'\',\n'
+    mb = re.search(r"POST_BODIES\s*=\s*\{", src)
+    if not mb:
+        raise SystemExit("Could not find POST_BODIES = { in content_blog.py")
+    insert_at_b = mb.end()
+    src = src[:insert_at_b] + "\n" + body_entry + src[insert_at_b:]
+
+    CONTENT_BLOG.write_text(src, encoding="utf-8")
+    print(f"[publish_blog_post] Inserted post '{args.slug}' into POSTS and POST_BODIES")
     return True
 
 
