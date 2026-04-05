@@ -19,7 +19,7 @@ BRAND = {
     "phone_display": "(346) 330-2550",
     "phone_raw": "+13463302550",
     "phone_href": "tel:3463302550",
-    "email": "info@hartbeat.solar",
+    "email": "support@hartbeat.solar",
     "address": {
         "street": "1200 Smith St, Suite 1600",
         "city": "Houston",

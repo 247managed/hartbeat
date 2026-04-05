@@ -21,10 +21,10 @@ def privacy_page():
 <p>We share information only with: (a) our installation crews and subcontractors under NDA, (b) financing partners you explicitly choose, (c) utilities and permitting authorities as required for your project, and (d) law enforcement when legally required. <strong>We do not sell your personal information.</strong></p>
 
 <h2>4. Your Rights</h2>
-<p>You may request access to, correction of, or deletion of your personal information at any time by emailing info@hartbeat.solar. Texas residents have additional rights under the Texas Data Privacy and Security Act.</p>
+<p>You may request access to, correction of, or deletion of your personal information at any time by emailing support@hartbeat.solar. Texas residents have additional rights under the Texas Data Privacy and Security Act.</p>
 
 <h2>5. Do Not Call / Do Not Text</h2>
-<p>If you would like to be removed from our call or text list, email info@hartbeat.solar with "REMOVE" in the subject line. We honor all such requests within 10 business days.</p>
+<p>If you would like to be removed from our call or text list, email support@hartbeat.solar with "REMOVE" in the subject line. We honor all such requests within 10 business days.</p>
 
 <h2>6. Cookies</h2>
 <p>We use essential cookies for site functionality and analytics cookies via Google Analytics. You may disable cookies in your browser settings.</p>
@@ -33,7 +33,7 @@ def privacy_page():
 <p>We use industry-standard encryption for data in transit (TLS 1.3) and at rest (AES-256). Our CRM and document systems are SOC 2 compliant.</p>
 
 <h2>8. Contact</h2>
-<p>Hart Beat Energy · 1200 Smith Street, Suite 1600, Houston, TX 77002 · info@hartbeat.solar · (346) 330-2550</p>
+<p>Hart Beat Energy · 1200 Smith Street, Suite 1600, Houston, TX 77002 · support@hartbeat.solar · (346) 330-2550</p>
 </div></section>
 '''
     return body
@@ -68,7 +68,7 @@ def terms_page():
 <p>These terms are governed by the laws of the State of Texas. Disputes will be resolved in the state or federal courts located in Harris County, Texas.</p>
 
 <h2>7. Contact</h2>
-<p>Hart Beat Energy · 1200 Smith Street, Suite 1600, Houston, TX 77002 · info@hartbeat.solar · (346) 330-2550</p>
+<p>Hart Beat Energy · 1200 Smith Street, Suite 1600, Houston, TX 77002 · support@hartbeat.solar · (346) 330-2550</p>
 </div></section>
 '''
     return body
