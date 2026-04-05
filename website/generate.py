@@ -58,6 +58,11 @@ def build_all():
                 except Exception as e:
                     print(f"  (asset copy warning: {rel} — {e})")
 
+    # GitHub Pages custom domain + Jekyll bypass
+    (DIST / "CNAME").write_text("www.hartbeat.solar\n", encoding="utf-8")
+    (DIST / ".nojekyll").write_text("", encoding="utf-8")
+    print("  ✓ CNAME + .nojekyll")
+
     base_schemas = [schema_organization(), schema_local_business(), schema_website()]
     print("Building pages...")
 
