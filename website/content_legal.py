@@ -33,7 +33,7 @@ def privacy_page():
 <p>We use industry-standard encryption for data in transit (TLS 1.3) and at rest (AES-256). Our CRM and document systems are SOC 2 compliant.</p>
 
 <h2>8. Contact</h2>
-<p>Hart Beat Energy · 1200 Smith Street, Suite 1600, Houston, TX 77002 · support@hartbeat.solar · (346) 330-2550</p>
+<p>Hart Beat Energy · Houston, TX · support@hartbeat.solar · (346) 330-2550</p>
 </div></section>
 '''
     return body
@@ -68,7 +68,7 @@ def terms_page():
 <p>These terms are governed by the laws of the State of Texas. Disputes will be resolved in the state or federal courts located in Harris County, Texas.</p>
 
 <h2>7. Contact</h2>
-<p>Hart Beat Energy · 1200 Smith Street, Suite 1600, Houston, TX 77002 · support@hartbeat.solar · (346) 330-2550</p>
+<p>Hart Beat Energy · Houston, TX · support@hartbeat.solar · (346) 330-2550</p>
 </div></section>
 '''
     return body

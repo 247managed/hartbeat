@@ -70,7 +70,6 @@ def contact():
         <li><strong>Phone:</strong> <a href="tel:3463302550">(346) 330-2550</a> — Mon–Fri 8a–6p, Sat 9a–3p</li>
         <li><strong>Email:</strong> <a href="mailto:support@hartbeat.solar">support@hartbeat.solar</a></li>
         <li><strong>Emergency line:</strong> <a href="tel:3463302550">24/7 for members</a></li>
-        <li><strong>Office:</strong> 1200 Smith St, Suite 1600, Houston, TX 77002</li>
       </ul>
       <h2 class="mt-4">Service areas</h2>
       <p>All 254 Texas counties. Primary metros: Houston, Austin, San Antonio, Dallas, Fort Worth, El Paso, Corpus Christi. <a href="{BASE}locations/houston.html">See city pages →</a></p>

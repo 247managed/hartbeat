@@ -21,7 +21,7 @@ BRAND = {
     "phone_href": "tel:3463302550",
     "email": "support@hartbeat.solar",
     "address": {
-        "street": "1200 Smith St, Suite 1600",
+        "street": "",
         "city": "Houston",
         "region": "TX",
         "postal": "77002",
