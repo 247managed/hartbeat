@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" fill="none">
+  <circle cx="30" cy="30" r="28" fill="#0b1f3a"/>
+  <path d="M30 12v36M12 30h36M18 18l24 24M42 18L18 42" stroke="#f5a623" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="30" cy="30" r="7" fill="#f5a623"/>
+  <text x="68" y="30" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="22" fill="#0b1f3a">Hart Beat</text>
+  <text x="68" y="50" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="14" fill="#1a7fb8" letter-spacing="1.5">ENERGY</text>
+</svg>
