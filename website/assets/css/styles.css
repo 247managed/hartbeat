@@ -217,13 +217,20 @@ p { margin: 0 0 1em; color: var(--hb-text); }
 .hero--bg { background-size: cover; background-position: center; background-repeat: no-repeat; }
 .hero--bg::after {
   content: ""; position: absolute; inset: 0;
-  background: linear-gradient(100deg, rgba(6,18,38,.92) 0%, rgba(6,18,38,.80) 45%, rgba(11,31,58,.55) 100%);
+  background: linear-gradient(100deg, rgba(6,18,38,.94) 0%, rgba(6,18,38,.88) 45%, rgba(6,18,38,.78) 100%);
   pointer-events: none;
   z-index: 1;
 }
 .hero--bg .hero__inner { position: relative; z-index: 2; }
-.hero--bg h1, .hero--bg p.lede { text-shadow: 0 2px 14px rgba(0,0,0,.45); }
+.hero--bg h1, .hero--bg p.lede, .hero--bg .post-title, .hero--bg .post-meta { text-shadow: 0 2px 18px rgba(0,0,0,.75), 0 1px 3px rgba(0,0,0,.5); }
 .hero--bg .hero__inner { z-index: 2; }
+
+/* Blog post hero — make title + meta sit above the overlay with strong contrast */
+.hero--bg .post-title,
+.hero--bg .post-meta { position: relative; z-index: 2; }
+.hero--bg .post-title { font-weight: 800; line-height: 1.15; }
+.hero--bg .post-meta { margin-bottom: 14px; font-size: .95rem; }
+.hero--bg .post-meta .tag { background: rgba(245,166,35,.22); color: var(--hb-sun); padding: 4px 10px; border-radius: 999px; font-weight: 700; font-size: .78rem; letter-spacing: .02em; }
 .hero__inner { position: relative; z-index: 1; }
 .hero h1 { color: #fff; max-width: 22ch; }
 .hero h1 .hl { color: var(--hb-sun); }
