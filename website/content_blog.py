@@ -3,6 +3,16 @@ from build import IMG, hero, cta_section, breadcrumb_html
 
 POSTS = [
     {
+        "slug": "85-days-left-houston-solar-lease-ppa-deadline",
+        "title": '85 Days Left: The Last Solar Incentive for Houston Homeowners Expires July 4, 2026',
+        "category": 'Houston Solar',
+        "excerpt": "The final federal solar incentive available to Houston homeowners — the commercial ITC accessed through leases and PPAs — expires July 4, 2026. Here's exactly how it works, who qualifies, and why Houston families need to act in April.",
+        "author": 'Hart Beat Energy Team',
+        "date": "2026-04-10",
+        "read_min": 6,
+    },
+
+    {
         "slug": "centerpoint-rate-hike-houston-solar-2026",
         "title": "Your CenterPoint Bill Is Going Up Again in 2026 — Here's Why, and What Houston Homeowners Can Do",
         "category": 'Market',
@@ -583,6 +593,119 @@ def blog_index_page():
 
 
 POST_BODIES = {
+    "85-days-left-houston-solar-lease-ppa-deadline": '''
+<section class="section"><div class="container prose">
+<p class="meta">Published April 10, 2026 &nbsp;·&nbsp; Hartbeat Energy &nbsp;·&nbsp; Houston, TX</p>
+
+<div class="countdown">
+  <span class="big">85</span>
+  <span class="label">Days Until the Deadline</span>
+</div>
+
+<p>If you are a Houston homeowner thinking about solar, the window for the last federal incentive is closing fast. The 30% residential solar tax credit that homeowners could claim on a cash or loan purchase was <strong>eliminated on July 4, 2025</strong> by the One Big Beautiful Bill Act. It is gone. Not stepping down, not extending — gone.</p>
+
+<p>But there is one remaining pathway, and it only works if physical installation begins before <strong>July 4, 2026</strong>. That is 85 days from today. This post walks through exactly what is still available, how it reaches you as a homeowner, and the realistic math for a family in Katy, Sugar Land, Cypress, or anywhere under CenterPoint's wires.</p>
+
+<h2>What Actually Still Exists in 2026</h2>
+
+<p>When people ask "is there still a solar tax credit?", the honest answer has two parts. For homeowners buying a system outright with cash or a loan, the answer is no. There is no federal credit on a cash purchase in 2026. Anyone telling you otherwise is either misinformed or running a scam — and the Texas Attorney General opened investigations into four solar companies in early April 2026 for that exact claim.</p>
+
+<p>What does still exist is the <strong>commercial Investment Tax Credit (Section 48E)</strong>. This credit is claimed by businesses that own solar equipment. Homeowners never touch it directly. Instead, a solar company installs and owns the panels on your roof, claims the 30% credit itself, and passes the savings through to you in the form of a lower monthly lease or a reduced per-kWh PPA rate.</p>
+
+<p>Two paths make this work:</p>
+
+<ul>
+  <li><strong>Solar Lease</strong> — you pay a flat monthly amount (typically $80–$130 in Houston) and use all the electricity the panels produce for your home.</li>
+  <li><strong>Power Purchase Agreement (PPA)</strong> — you pay per kilowatt-hour of solar production, typically 8–12¢/kWh, versus CenterPoint's blended retail rate of roughly 15–16¢/kWh today.</li>
+</ul>
+
+<div class="callout">
+<strong>The hard deadline:</strong> Under current IRS guidance, the commercial ITC requires <em>physical construction</em> to begin before July 4, 2026. Signing a contract is not enough. Permit pulled, racking on the roof, or equipment physically on site — that is the bar. Because Houston permitting through the City and surrounding jurisdictions can take 3–6 weeks, a mid-April site assessment is realistic. A mid-June signature probably is not.</div>
+
+<h2>Houston Solar in 2026: Cash vs. Lease vs. PPA</h2>
+
+<p>Here is the honest side-by-side for a typical 9 kW system on a 2,400 sq ft Houston home with a $220 average summer CenterPoint bill:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Factor</th>
+      <th>Cash Purchase</th>
+      <th>Solar Lease</th>
+      <th>PPA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Upfront cost</td><td>$22,000–$28,000</td><td>$0</td><td>$0</td></tr>
+    <tr><td>Federal tax credit</td><td><strong>None</strong></td><td>Captured by installer, passed through</td><td>Captured by installer, passed through</td></tr>
+    <tr><td>Monthly payment</td><td>$0 (or loan payment)</td><td>$80–$130 flat</td><td>8–12¢ per kWh produced</td></tr>
+    <tr><td>Payback period</td><td>11–12 years</td><td>Immediate monthly savings</td><td>Immediate monthly savings</td></tr>
+    <tr><td>25-year savings</td><td>$55,000–$70,000</td><td>$18,000–$30,000</td><td>$20,000–$34,000</td></tr>
+    <tr><td>July 4, 2026 deadline applies?</td><td>No (no credit anyway)</td><td><strong>Yes</strong></td><td><strong>Yes</strong></td></tr>
+    <tr><td>Texas property tax exemption</td><td>Yes ($400–600/yr)</td><td>N/A (you don't own it)</td><td>N/A (you don't own it)</td></tr>
+  </tbody>
+</table>
+
+<p>Cash purchase still has the best lifetime economics if you have the capital and plan to stay in the home at least 12 years. But for most Houston families, the lease or PPA is the realistic path — and those paths get materially worse on July 5, 2026 when the installer loses the 30% credit and has to raise monthly rates to cover it.</p>
+
+<h2>Why Houston Specifically?</h2>
+
+<p>Two things make the 2026 math work for Houston in a way it doesn't for every market:</p>
+
+<h3>1. CenterPoint rates are climbing</h3>
+<p>The Public Utility Commission of Texas approved CenterPoint's storm cost recovery surcharge in early 2026, adding roughly $2/month to residential bills for the next 14 years to recoup Beryl, Francine, and Winter Storm Enzo restoration costs. Stack that on ERCOT wholesale prices up 45% year-over-year driven by data center load growth, and the blended residential rate is now around 15¢/kWh and trending up. A locked-in lease payment or a PPA rate of 8–12¢/kWh looks better every quarter.</p>
+
+<h3>2. Texas summers punish the grid when you need it most</h3>
+<p>July through September, a Houston home with decent sun exposure can offset 90–100% of its daytime load. Combined with a battery (financed separately, outside the lease), a Hartbeat customer in Sugar Land went through a 14-hour Beryl-era outage in June 2024 with their AC running. That is a practical, not theoretical, benefit.</p>
+
+<div class="case-study">
+<h3>Case Study: The Ramirez Family, Katy, TX</h3>
+<p>The Ramirezes live in a 2,650 sq ft home near Cinco Ranch. Their 2025 summer CenterPoint bills averaged $245/month, with peaks of $310 in July. They didn't have $24,000 sitting around for a cash system and weren't interested in adding a loan payment.</p>
+<p>In late March 2026, they signed a 25-year solar lease for an 11 kW system at a locked $118/month. Permits were pulled April 3, racking went on the roof April 9 — well before the July 4 deadline for commercial ITC qualification. Their first full month on solar projected them at roughly $35 in residual CenterPoint charges (delivery, storm surcharge, minimum fees).</p>
+<p>Total monthly outlay: ~$153 vs. $245 before. Projected 25-year savings at flat rates: ~$27,600. If CenterPoint rates climb 3% annually (historical average), that number closer to $42,000.</p>
+</div>
+
+<h2>What If You Miss the Deadline?</h2>
+
+<p>Leases and PPAs will still exist after July 4, 2026. Solar will still work. But the installer claiming the 30% commercial credit is how the math gets to $80–$130 a month in Houston today. Remove that subsidy and the same system underwrites at roughly $115–$170 a month. That is not catastrophic — it is still below an average CenterPoint bill — but it is materially worse, and it is permanent.</p>
+
+<p>For anyone seriously considering solar this year, the honest advice is: book your site assessment in April. A realistic Houston timeline looks like this:</p>
+
+<ul>
+  <li><strong>Week 1–2:</strong> Site assessment, shade analysis, system design, proposal review</li>
+  <li><strong>Week 3–4:</strong> Contract signing, HOA approval if applicable, permit submission</li>
+  <li><strong>Week 5–8:</strong> City permit approval, equipment scheduling</li>
+  <li><strong>Week 9–10:</strong> Physical installation begins — this is the moment that qualifies for the commercial ITC</li>
+  <li><strong>Week 11–14:</strong> Inspection, CenterPoint interconnection, PTO (permission to operate)</li>
+</ul>
+
+<p>A 10–14 week timeline from first call to panels-on-roof is typical. That means the practical cutoff for signing a new customer is somewhere around late April to mid-May. After that, construction before July 4 becomes a risk.</p>
+
+<h2>Questions to Ask Any Solar Company Right Now</h2>
+
+<p>Given the AG investigations and the pressure of the deadline, there are five questions every Houston homeowner should ask before signing anything:</p>
+
+<ul>
+  <li>Will physical construction on my system begin before July 4, 2026? Get that in writing.</li>
+  <li>Are you quoting me a residential tax credit on a cash purchase? If yes, walk away — that credit no longer exists.</li>
+  <li>Is this a lease, a PPA, or a purchase? If lease or PPA, who owns the system, and who claims the tax credit?</li>
+  <li>What is the escalator on my monthly payment or PPA rate? Many contracts include 1.9–2.9% annual increases.</li>
+  <li>Are you a licensed Texas contractor with a verifiable Houston installation history I can drive to and see?</li>
+</ul>
+
+<div class="cta">
+  <h2>Get a Straight Answer Before the Deadline</h2>
+  <p>Hartbeat Energy is a Houston-local solar company. We'll come out, look at your roof, show you the real 2026 numbers for your address, and tell you honestly whether solar makes sense. No pressure, no inflated savings math, no imaginary tax credits.</p>
+  <a class="cta-btn" href="https://hartbeat.solar">Book Your Free Assessment</a>
+  <span class="phone">Or call us directly: <strong>(346) 330-2550</strong></span>
+</div>
+
+<p style="color: var(--muted); font-size: 0.88rem; margin-top: 30px;">
+This post reflects policy and rates as of April 10, 2026. The residential solar tax credit (Section 25D) was repealed effective December 31, 2025. The commercial ITC (Section 48E) remains available through solar lease and PPA structures until physical construction deadlines are met under current IRS guidance. Hartbeat Energy is not a tax advisor — please consult a licensed CPA for tax advice specific to your situation.
+</p>
+</div></section>
+''',
+
     "centerpoint-rate-hike-houston-solar-2026": '''
 <section class="section"><div class="container prose">
 <p>If you opened your electricity bill this month and felt your stomach drop, you're not imagining it. Houston-area homeowners are paying an average of <strong>16.18¢ per kilowatt-hour</strong> in 2026 — up 4.4% from a year ago and nearly double what the national average was just five years ago. For a typical 2,200 sq ft Houston home running the AC hard from May through September, that adds up to $200–$280 a month during peak summer months.</p>
