@@ -3,6 +3,16 @@ from build import IMG, hero, cta_section, breadcrumb_html
 
 POSTS = [
     {
+        "slug": "houston-solar-quotes-30-percent-more-expensive-2026",
+        "title": 'Why Houston Solar Quotes Just Got 30% More Expensive in 2026 (And Why Mid-May Is the Real Cutoff)',
+        "category": 'Houston Solar Pricing 2026',
+        "excerpt": "If your Houston solar quote jumped 25–35% between March and May 2026, it's not greed — it's tariffs, FEOC rules, and the July 4 lease/PPA deadline colliding. Here's the real math.",
+        "author": 'Hart Beat Energy Team',
+        "date": "2026-05-06",
+        "read_min": 7,
+    },
+
+    {
         "slug": "85-days-left-houston-solar-lease-ppa-deadline",
         "title": '85 Days Left: The Last Solar Incentive for Houston Homeowners Expires July 4, 2026',
         "category": 'Houston Solar',
@@ -593,6 +603,149 @@ def blog_index_page():
 
 
 POST_BODIES = {
+    "houston-solar-quotes-30-percent-more-expensive-2026": '''
+<section class="section"><div class="container prose">
+<p class="lede">If you got a solar quote in The Heights or Katy back in March and a fresh one in May, the price probably went up by $5,000 to $9,000. It's not the installer being greedy. It's a stack of tariffs, new Treasury rules, and a federal deadline all hitting at once — and it's why mid-May is the real contract cutoff for Houston homeowners, not July 4.</p>
+
+  <div class="callout">
+    <div class="callout-title">Quick Policy Reset</div>
+    <p>The 30% <strong>residential</strong> federal solar tax credit (Section 25D) was repealed on July 4, 2025. Cash and loan buyers in 2026 receive <strong>no</strong> federal credit. The only remaining 30% credit is the <strong>commercial ITC (Section 48E)</strong>, which homeowners can access through a <strong>solar lease or PPA</strong> — but the installer must <strong>begin physical construction before July 4, 2026</strong>. After that, the credit disappears for residential lease/PPA projects too.</p>
+  </div>
+
+  <h2>What Actually Changed Between March and May 2026</h2>
+  <p>Three things compounded almost simultaneously, and they all roll downhill into a Houston homeowner's quote.</p>
+
+  <h3>1. The Cambodia + Vietnam + Thailand + Malaysia tariff stack landed</h3>
+  <p>The Department of Commerce finalized anti-dumping and countervailing duties on solar cells and modules from the four countries that supply the bulk of U.S. residential panels. The numbers are not small:</p>
+  <ul>
+    <li>Cambodia modules: duties up to <strong>~3,521%</strong> (effectively a market exit)</li>
+    <li>Trina Solar (Thailand): <strong>~375%</strong></li>
+    <li>JA Solar (Vietnam): <strong>~120.6%</strong></li>
+    <li>JinkoSolar (Malaysia): <strong>~24%</strong></li>
+  </ul>
+  <p>The wholesale module price index moved from roughly <strong>$0.22/W in February to about $0.297/W in late April</strong> — a 35% jump. For a 9 kW Houston system, that one input alone adds $675 to $750 to the bill of materials before the installer touches it.</p>
+
+  <h3>2. Treasury's FEOC and MACR rules are restricting eligible equipment</h3>
+  <p>The "Foreign Entity of Concern" (FEOC) and "Material Assistance from Covered Restricted" (MACR) rules tightened in late Q1 2026. Inverters, batteries, and modules that contain components from restricted-country supply chains are being pulled from approved lists for the commercial ITC. That shrinks the pool of installable equipment, and the gear that <em>does</em> qualify carries a premium.</p>
+  <p>For Houston installers, the practical effect is longer lead times — particularly for inverters, where wait times have stretched <strong>roughly three weeks longer than they were in January</strong>.</p>
+
+  <h3>3. The July 4 deadline is bunching demand</h3>
+  <p>Every solar buyer in the country who wants the 30% commercial ITC through a lease or PPA is trying to get a contract signed and physical construction started before July 4, 2026. That demand spike is layered on top of the supply contraction. Classic supply-and-demand: prices go up, slots fill, premium projects (rapid installs in major metros like Houston) cost more.</p>
+
+  <h2>Houston Solar Quote Comparison: March 2026 vs. May 2026</h2>
+  <p>Here is what we're seeing across CenterPoint territory for a typical 9 kW rooftop system on a single-story home in Cypress, Sugar Land, or The Woodlands. Same scope, same installer-class, two months apart.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Line item (9 kW system)</th>
+        <th>March 2026</th>
+        <th>May 2026</th>
+        <th>Δ</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Module hardware (panels)</td>
+        <td>$1,980</td>
+        <td>$2,673</td>
+        <td>+$693</td>
+      </tr>
+      <tr>
+        <td>Inverter (string or micro)</td>
+        <td>$2,400</td>
+        <td>$3,150</td>
+        <td>+$750</td>
+      </tr>
+      <tr>
+        <td>Racking, BOS, wiring</td>
+        <td>$2,100</td>
+        <td>$2,310</td>
+        <td>+$210</td>
+      </tr>
+      <tr>
+        <td>Labor, permitting, interconnect</td>
+        <td>$6,800</td>
+        <td>$7,500</td>
+        <td>+$700</td>
+      </tr>
+      <tr>
+        <td>Installer margin & overhead</td>
+        <td>$8,720</td>
+        <td>$11,367</td>
+        <td>+$2,647</td>
+      </tr>
+      <tr>
+        <td><strong>Cash purchase total</strong></td>
+        <td><strong>~$22,000</strong></td>
+        <td><strong>~$27,000</strong></td>
+        <td><strong>+$5,000 (≈23%)</strong></td>
+      </tr>
+      <tr>
+        <td>Lease/PPA monthly (with 48E credit)</td>
+        <td>$95/mo</td>
+        <td>$108/mo</td>
+        <td>+$13/mo</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Two things stand out. First, the lease and PPA paths absorbed less of the increase, because the 30% commercial ITC is doing real work on the financing math. Second, the cash quote moved more sharply — and there is no federal credit waiting on the other side to soften it.</p>
+
+  <h2>The CenterPoint Side of the Equation Hasn't Slowed Down</h2>
+  <p>Quotes are rising, but so is the alternative. The Texas residential average rate is now around <strong>16.18¢/kWh — up 4.4% year-over-year</strong>. CenterPoint's blended retail rate is roughly <strong>15.33¢/kWh</strong>, and the storm-cost surcharge tacked on after Beryl (about $2/month) is now baked in for up to 14 years. ERCOT summer demand forecasts for 2026 are again projecting record loads.</p>
+  <p>So the question for a Houston homeowner isn't "is solar still cheaper than the grid?" — it usually is. The question is "which financing path makes that math work in 2026?"</p>
+
+  <h2>Houston Case Study: The Patel Family in Katy (May 2026)</h2>
+  <div class="case-study">
+    <div class="scenario">Real-world scenario · single-story 2,400 sq ft · CenterPoint territory</div>
+    <h3>Two paths, same roof</h3>
+    <p>The Patels in Katy received quotes from three installers in the first week of May 2026 for a 9.2 kW system designed to offset about 95% of their 14,400 kWh annual usage. Their average monthly CenterPoint bill in 2025 was $213.</p>
+    <p><strong>Cash purchase path:</strong> $26,800 out the door, no federal credit. With the Texas property-tax exemption (worth roughly $480/year on a system that adds value to their assessment), 25-year savings work out to approximately $58,000. Payback hits at <strong>year 11</strong>.</p>
+    <p><strong>Lease path with 30% commercial ITC:</strong> $0 down, $112/month locked in for 25 years with a 1.9% escalator. Their projected first-year electricity cost (lease + minimal CenterPoint draw) is about $1,544. That's roughly $1,012 in year-one savings vs. their current bill, with the savings compounding as utility rates outpace the escalator.</p>
+    <p>Both options pencil. The lease wins on day-one cash flow and removes the risk that another tariff round in late 2026 makes the cash math worse. The cash purchase wins on long-horizon equity if the Patels stay 20+ years.</p>
+    <p><strong>The piece that disappears for both paths if they wait until June:</strong> the lease quote almost certainly moves above $120/month, and the cash quote likely passes $28,500.</p>
+  </div>
+
+  <h2>Why "Mid-May" Is the Real Cutoff, Not July 4</h2>
+  <p>The Section 48E deadline is July 4, 2026 — but the deadline is "physical work of a significant nature" must have begun by then, not "contract signed." For a Houston install, that means:</p>
+  <ol>
+    <li><strong>Contract signing</strong> needs ~5–10 business days of design, structural review, and HOA paperwork (especially in master-planned communities like Bridgeland or Cinco Ranch).</li>
+    <li><strong>Permitting</strong> through the City of Houston, Harris County, or your suburban AHJ adds 2–4 weeks. Permits do <em>not</em> count as physical work.</li>
+    <li><strong>CenterPoint interconnection application</strong> — required before energization, but again, not physical work.</li>
+    <li><strong>Racking install or off-site fabrication of custom equipment under a binding contract</strong> — this is the IRS test that actually starts the clock (per IRS Notice 2025-42).</li>
+  </ol>
+  <p>Working backwards from July 4, a contract signed after roughly <strong>May 20</strong> leaves very little margin for a Houston installer to break ground before the deadline. Reputable companies are already triaging which May contracts they can guarantee. By June, most won't make promises at all.</p>
+
+  <div class="callout">
+    <div class="callout-title">⚠️ Watch for this red flag</div>
+    <p>If a salesperson tells you that filing a permit, signing financing paperwork, or scheduling an inspection counts as "begin construction" for the commercial ITC — they are wrong, and they may also be wrong about other things in your contract. The IRS physical work test is specific. Ask any installer to put their construction-start commitment in writing.</p>
+  </div>
+
+  <h2>What This Means If You're Quoting Solar Right Now in Houston</h2>
+  <ul>
+    <li><strong>If you're shopping cash:</strong> Get all three quotes this week, not next month. Every quote you collect after mid-May will likely be higher than the one before it. Don't expect a 7–8 year payback — that math came from the old residential ITC era. Plan for 11–12 years and make sure the long-term savings story still works for your household.</li>
+    <li><strong>If you're shopping lease or PPA:</strong> The window for the 30% commercial ITC is the deciding factor. A signed contract by mid-May is the practical floor. After July 4, 2026, lease and PPA pricing for new projects in Houston will reset upward.</li>
+    <li><strong>If you're considering waiting until 2027:</strong> You'll be buying or leasing equipment without any federal credit at all, with a tariff stack still in place, and likely with higher CenterPoint rates. Waiting is a real choice, but it's not a money-saving choice on current information.</li>
+  </ul>
+
+  <h2>Bottom Line for Houston Homeowners</h2>
+  <p>The 30% jump in quotes isn't an installer scam — it's the global module market repricing in real time. But the timing pressure is real, and it's compounded by the July 4 deadline. The single biggest decision you can make in May 2026 is whether the lease/PPA path makes sense for your household, and if so, getting a contract in place while the commercial ITC is still doing the heavy lifting on your monthly payment.</p>
+  <p>If you'd like a same-week quote that includes both the cash path and a lease/PPA path side-by-side — with the actual installer construction-start commitment in writing — we'll come out and walk your roof.</p>
+
+  <div class="cta-block">
+    <h2>Get Your Houston Solar Quote Before the May Cutoff</h2>
+    <p>Free assessment. Both cash and lease/PPA options. Construction-start commitment in writing.</p>
+    <a href="https://hartbeat.solar/quote" class="cta-button">Request Your Quote</a>
+    <a href="tel:+13463302550" class="cta-phone">or call <strong>(346) 330-2550</strong></a>
+  </div>
+
+  <p style="font-size:13px; color:var(--brand-muted); margin-top:32px; padding-top:18px; border-top:1px solid var(--brand-border);">
+    Hartbeat Energy is a Houston-based residential solar company serving CenterPoint territory including The Heights, Katy, Cypress, Sugar Land, The Woodlands, Pearland, and surrounding communities. This article is informational and reflects publicly available federal policy as of May 2026; it is not tax or legal advice. Consult a qualified tax professional regarding the Section 48E commercial ITC and your specific situation.
+  </p>
+</div></section>
+''',
+
     "85-days-left-houston-solar-lease-ppa-deadline": '''
 <section class="section"><div class="container prose">
 <p class="meta">Published April 10, 2026 &nbsp;·&nbsp; Hartbeat Energy &nbsp;·&nbsp; Houston, TX</p>
